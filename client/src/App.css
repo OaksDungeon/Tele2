@@ -226,3 +226,56 @@ section .details span{
   margin-bottom: 25px;
   min-height: 50px;
 }
+@media all and (max-width: 767px)
+{
+.img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.dialog-overlay {
+  height: 100%;
+}
+
+.dialog-box {
+  height: 250px;
+  width: 400px;
+  font-size: 10px;
+
+}
+
+.dialog-box button {
+  height: 25px;
+  font-size: 15px;
+}
+
+.button-save{
+  background-color: #000000;
+  border-radius: 20px;
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  
+  }
+  
+  .button-delete{
+    background-color: #000000;
+    border-radius: 20px;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+  
+  }
+  
+  .button-quest{
+    opacity: 0;
+    background-color: #000000;
+    border-radius: 20px;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+  
+  }
+
+}
