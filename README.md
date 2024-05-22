@@ -18,7 +18,7 @@
 ## Как начать
 
 1. Убедитесь, что ваша среда соответствует требованиям из `requirements.txt` и `npm.txt` (так же вам необходим установленный Python3, Uvicorn и npm).
-2. Скачайте архивы `assets.7z` и `env.7z`. Распакуйте их по пути `client/`. Должно получится `client/assets` и `client/env`.
+2. Скачайте архивы `assets.7z`, `.git.7z` и `env.7z`. Распакуйте их по пути `client/`. Должно получится `client/assets`, `.git.7z` и `client/env`.
 3. Скачать архив `node_modules.7z` по ссылке `https://drive.google.com/file/d/1-zNhclfZV6XvZKFn-XcDSI79D0b4eGbU/view?usp=sharing`. Распакуйте его по пути `client/`. Должно получится `client/node_modules`.
 4. Запустите виртуальное окружение, запустив `server/.venv/Scripts/activate.bat`
 5. Запустите сервер в виртуальном окружение строкой `uvicorn yolo_api:app --host 0.0.0.0 --port 8000`
